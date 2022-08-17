@@ -71,7 +71,7 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Kalendarz</title>
+    <title>Calendar</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <style>
         .container {
@@ -102,13 +102,13 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
         <h3><a href="?ym=<?php echo $prev; ?>">&lt;</a> <?php echo $h3_title; ?> <a href="?ym=<?php echo $next; ?>">&gt;</a></h3>
         <table class="table table-bordered">
             <tr>
-                <th>Pn</th>
-                <th>Wt</th>
-                <th>Śr</th>
-                <th>Czw</th>
-                <th>Pt</th>
-                <th>So</th>
-                <th>Nie</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
             </tr>
             <?php
                 foreach ($weeks as $week) {
